@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="/PD_Internship-Assignment-2023/css/weather.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>WEATHER FORECAST</title>
+    <header>WEATHER REPORT </header>
+</head>
+
+<body>
+  
+        <div class="card">
+          <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button>
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+    
+          <div class="weather">
+            <div class="main">
+              <h1 class="temp"></h1>
+              <h2 class="city"></h2>
+            </div>
+    
+            <div class="details">
+              <div class="col">
+                <img src="/PD_Internship-Assignment-2023/images/humidity.png" alt="HUMIDITY">
+                <div>
+                  <p class="humidity"></p>
+                  <p>Humidity</p>
+                </div>
+              </div>
+              <div class="col">
+                <img src="/PD_Internship-Assignment-2023/images/wind.png" alt="WIND">
+                <div>
+                  <p class="wind"></p>
+                  <p>Wind</p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <p class="error-message"></p>
+    <script src="/PD_Internship-Assignment-2023/js/weather.js"></script>
+</body>
+</html>
